@@ -30,9 +30,25 @@ Despues solo recargamos la página y ya veremos nuestro repositorio.
 ## git pages
 
 Una forma es cambiar de nombre la carpeta **dist** a **docs**
-Despues en github nos vamos a settings, luego a pages y ahi va a estar nuestro proyecto. Vamos a elegir **docs** para que este en pages.
 
 HAcemos:
 `git add.`
 `git commit -m "Docs agregado"`
 `git push`
+
+Despues en github nos vamos a settings, luego a pages y ahi va a estar nuestro proyecto. Vamos a elegir **docs** para que este en pages.
+
+Tenemos que esperar hasta que la pagina ya nos indique que podemos visitar el sitio pages.
+
+Si entramos vemos que la App no funciona bien. Nos arroja en la consola errores 404 en algunos indexs.
+
+Lo que pasa es que revisamos en el head del html inspeccionando vamos a ver que la ruta donde busca no es la que tiene la url que nos da git hub pages. asi que debemos indicarle que busque desde donde se encuentra el html poniendo **./talcosa**
+
+lo que se tiene que hacer es en el docs cambiar el index.html y las rutas en el head agrega el punto slash `./`
+
+y subimos a github:
+`git add.`
+`git commit -m "index.html del Docs actualizado"`
+`git push`
+
+Tenemos que esperar que vuelva a estar activo. para visitar.
