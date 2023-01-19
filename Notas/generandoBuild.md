@@ -11,6 +11,8 @@ solo se tiene que arrastra la carpeta dist
 
 # desplegar en git hub pages
 
+## Preparando proyecto para subirlo a git hub pages.
+
 - Inicializamos git en nuestro proyecto `git init` nos vamos a dar cuenta que ya se reconoce git por que los archivos que no ignora a parecen de las letras de color, mientras que los archivos que ignora las letras estan gris.
 
 Tomamos lo que se conoce como fotografia, mas bien agregamos un commit para eso:
@@ -18,3 +20,9 @@ Tomamos lo que se conoce como fotografia, mas bien agregamos un commit para eso:
 - hacemos `git add .` para que tome todos los commits (los cambios) que se han echo, puede que se el primer.
 - hacemos `git commit -m "Primer commit"`
 - Asi ya lo tenemos respaldo y si se quiere volver al ultimo commit solo se hace: `git checkout -- .` y se vuelve a restructurar como estaba.
+
+## Subiendo a github.
+
+Muchos de los comandos que aparecen en la pagina de git hub ya lo hicimos asi que nos pasamos a ala opcion de abajo copiamos lors 3 y ejecutamos los comandos en vscode.
+
+Despues solo recargamos la página y ya veremos nuestro repositorio.
