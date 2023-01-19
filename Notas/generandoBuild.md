@@ -26,3 +26,13 @@ Tomamos lo que se conoce como fotografia, mas bien agregamos un commit para eso:
 Muchos de los comandos que aparecen en la pagina de git hub ya lo hicimos asi que nos pasamos a ala opcion de abajo copiamos lors 3 y ejecutamos los comandos en vscode.
 
 Despues solo recargamos la página y ya veremos nuestro repositorio.
+
+## git pages
+
+Una forma es cambiar de nombre la carpeta **dist** a **docs**
+Despues en github nos vamos a settings, luego a pages y ahi va a estar nuestro proyecto. Vamos a elegir **docs** para que este en pages.
+
+HAcemos:
+`git add.`
+`git commit -m "Docs agregado"`
+`git push`
